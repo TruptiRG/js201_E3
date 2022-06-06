@@ -1,0 +1,26 @@
+
+#voucher_list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    margin-top: 3%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px
+}
+
+a{
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 3px solid blueviolet;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+a:hover{
+    background-color: rgb(248, 201, 248);
+}
